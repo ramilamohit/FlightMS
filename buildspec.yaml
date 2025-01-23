@@ -16,7 +16,7 @@ phases:
       - echo Running Gradle build...
       - ./gradlew clean build
       - echo Building the Docker image...
-      - IMAGE_REPO_NAME=userms-repo
+      - IMAGE_REPO_NAME=flightms-repo
       - IMAGE_TAG=latest
       - echo img-repo-name $IMAGE_REPO_NAME
       - echo img-tag $IMAGE_TAG
